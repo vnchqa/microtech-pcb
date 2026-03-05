@@ -1,0 +1,79 @@
+<header>
+<h2>MicroTech PCB</h2>
+<nav>
+<a href="index.html">Главная</a>
+<a href="order.html">Заказать</a>
+<a href="equipment.html">Оборудование</a>
+<a href="about.html">О нас</a>
+<a href="contacts.html">Контакты</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Производство печатных плат и микросхем</h1>
+<p>Современное производство электроники для инженеров, стартапов и разработчиков</p>
+<br>
+<a class="btn" href="order.html">Быстрый заказ</a>
+</section>
+
+<section class="container">
+<h2 class="section-title">Наши услуги</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>PCB производство</h3>
+<p>Изготовление однослойных, двухслойных и многослойных печатных плат.</p>
+</div>
+
+<div class="card">
+<h3>Микросхемы на заказ</h3>
+<p>Разработка специализированных чипов для электронных устройств.</p>
+</div>
+
+<div class="card">
+<h3>SMT монтаж</h3>
+<p>Автоматическая установка электронных компонентов на платы.</p>
+</div>
+
+<div class="card">
+<h3>Прототипирование</h3>
+<p>Быстрое изготовление тестовых образцов плат.</p>
+</div>
+
+</div>
+</section>
+
+<section class="container">
+<h2 class="section-title">Калькулятор стоимости PCB</h2>
+
+<div class="calc">
+
+<label>Ширина платы (мм)</label>
+<input id="width" type="number">
+
+<label>Высота платы (мм)</label>
+<input id="height" type="number">
+
+<label>Количество плат</label>
+<input id="qty" type="number">
+
+<label>Количество слоев</label>
+<select id="layers">
+<option value="1">1 слой</option>
+<option value="2">2 слоя</option>
+<option value="4">4 слоя</option>
+<option value="6">6 слоев</option>
+</select>
+
+<button onclick="calculatePrice()">Рассчитать</button>
+
+<div id="price" class="price"></div>
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 MicroTech PCB</p>
+</footer>
