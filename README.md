@@ -1,130 +1,106 @@
-MicroTech PCB
+# MicroTech PCB
 
-⚠️ Important:
-This is NOT a real commercial website.
-This project was created only for a school assignment.
+⚠️ **Important:**  
+This is **NOT a real commercial website.**  
+This project was created **only for a school assignment**.
 
-About the Project
+---
 
-MicroTech PCB is a fictional electronics manufacturing company created as part of a school project.
+## About the Project
+
+**MicroTech PCB** is a fictional electronics manufacturing company created as part of a school project.
 
 The goal of this project was to design and build a modern website for a company that produces:
 
-Custom microchips
+- Custom microchips  
+- Printed Circuit Boards (PCB)  
+- SMT assembly services  
+- Electronic prototypes  
 
-Printed Circuit Boards (PCB)
+The website is inspired by professional electronics manufacturing platforms such as **PCBWay**, but simplified for educational purposes.
 
-SMT assembly services
+---
 
-Electronic prototypes
-
-The website is inspired by professional electronics manufacturing platforms such as PCBWay, but simplified for educational purposes.
-
-Project Goals
+## Project Goals
 
 The main goals of the project were:
 
-Learn basic web development
+- Learn basic **web development**  
+- Understand **how industrial company websites are structured**  
+- Create a **modern startup-style website**  
+- Simulate a **real electronics manufacturing company**  
 
-Understand how industrial company websites are structured
+---
 
-Create a modern startup-style website
+## Website Features
 
-Simulate a real electronics manufacturing company
+The website now includes **updated pages** and features:
 
-Website Features
+### Home Page (`index.html`)
+- Overview of the company  
+- Description of services  
+- Quick PCB order button  
+- Production overview  
+- Projects preview section  
 
-The website now includes updated pages and features:
-
-Home Page (index.html)
-
-Overview of the company
-
-Description of services
-
-Quick PCB order button
-
-Production overview
-
-Projects preview section
-
-Order Page (order.html)
-
+### Order Page (`order.html`)
 A simplified PCB ordering system including:
 
-Name
+- Name  
+- Email  
+- Phone number  
+- Project description  
+- PCB dimensions  
+- PCB quantity  
+- Layer count  
+- Gerber file upload (concept)  
+- **Button to go to payment page**  
 
-Email
+### Payment Page (`payment.html`)
+- Fake payment form for demonstration purposes  
+- Success message displayed after submitting  
 
-Phone number
+### Projects Page (`projects.html`)
+- Showcase of example projects with images and descriptions  
+- Animated project cards  
 
-Project description
-
-PCB dimensions
-
-PCB quantity
-
-Layer count
-
-Gerber file upload (concept)
-
-Button to go to payment page
-
-Payment Page (payment.html)
-
-Fake payment form for demonstration purposes
-
-Success message displayed after submitting
-
-Projects Page (projects.html)
-
-Showcase of example projects with images and descriptions
-
-Animated project cards
-
-Equipment Page (equipment.html)
-
+### Equipment Page (`equipment.html`)
 Description of production equipment used in electronics manufacturing:
 
-SMT Pick & Place machines
+- SMT Pick & Place machines  
+- Reflow ovens  
+- AOI inspection systems  
+- CNC drilling machines  
+- X-ray inspection equipment  
+- Quality control tools  
 
-Reflow ovens
-
-AOI inspection systems
-
-CNC drilling machines
-
-X-ray inspection equipment
-
-Quality control tools
-
-About Page (about.html)
-
+### About Page (`about.html`)
 Information about the fictional company's mission:
 
-Supporting engineers and startups
+- Supporting engineers and startups  
+- Providing fast PCB prototyping  
+- High-precision electronics manufacturing  
 
-Providing fast PCB prototyping
-
-High-precision electronics manufacturing
-
-Contacts Page (contacts.html)
-
+### Contacts Page (`contacts.html`)
 Company contact information and production location.
 
-Technologies Used
+---
+
+## Technologies Used
 
 This project was built using:
 
-HTML
+- **HTML**  
+- **CSS**  
+- **JavaScript**  
 
-CSS
+No backend or real ordering system is implemented. All payment and ordering functions are **simulated**.
 
-JavaScript
+---
 
-No backend or real ordering system is implemented. All payment and ordering functions are simulated.
+## Project Structure
 
-Project Structure
+```text
 microtech-pcb/
 │
 ├ index.html         # Home page with hero, services, PCB calculator, projects preview
@@ -138,24 +114,3 @@ microtech-pcb/
 ├ styles.css         # Shared CSS with animations and styles
 ├ script.js          # Shared JavaScript: animations, PCB calculator, fake payment
 └ logo.png           # Company logo
-Live Demo
-
-You can view the website live on GitHub Pages here:
-
-https://vnchqa.github.io/microtech-pcb/
-
-Navigate the site using the top menu
-
-Try the PCB order form and click "Перейти к оплате" to see the fake payment page
-
-Explore the Projects page to see example projects with animated cards
-
-Notes
-
-This website is entirely educational and not a real electronics manufacturer
-
-All prices, projects, and payment functionality are fake / simulated
-
-Images are from Unsplash and other free image sources
-
-Designed for a school project demonstration, not for commercial use
