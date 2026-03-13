@@ -1,52 +1,156 @@
 MicroTech PCB
 
-This is NOT a real website. It's made for my school project.
+⚠️ Important:
+This is NOT a real commercial website.
+This project was created only for a school assignment.
 
-MicroTech PCB is a simulated electronics manufacturing company website. It demonstrates the production of custom printed circuit boards (PCBs) and microchips, aimed at engineers, startups, and electronics developers.
+About the Project
 
-📂 Project Structure
+MicroTech PCB is a fictional electronics manufacturing company created as part of a school project.
+
+The goal of this project was to design and build a modern website for a company that produces:
+
+Custom microchips
+
+Printed Circuit Boards (PCB)
+
+SMT assembly services
+
+Electronic prototypes
+
+The website is inspired by professional electronics manufacturing platforms such as PCBWay, but simplified for educational purposes.
+
+Project Goals
+
+The main goals of the project were:
+
+Learn basic web development
+
+Understand how industrial company websites are structured
+
+Create a modern startup-style website
+
+Simulate a real electronics manufacturing company
+
+Website Features
+
+The website now includes updated pages and features:
+
+Home Page (index.html)
+
+Overview of the company
+
+Description of services
+
+Quick PCB order button
+
+Production overview
+
+Projects preview section
+
+Order Page (order.html)
+
+A simplified PCB ordering system including:
+
+Name
+
+Email
+
+Phone number
+
+Project description
+
+PCB dimensions
+
+PCB quantity
+
+Layer count
+
+Gerber file upload (concept)
+
+Button to go to payment page
+
+Payment Page (payment.html)
+
+Fake payment form for demonstration purposes
+
+Success message displayed after submitting
+
+Projects Page (projects.html)
+
+Showcase of example projects with images and descriptions
+
+Animated project cards
+
+Equipment Page (equipment.html)
+
+Description of production equipment used in electronics manufacturing:
+
+SMT Pick & Place machines
+
+Reflow ovens
+
+AOI inspection systems
+
+CNC drilling machines
+
+X-ray inspection equipment
+
+Quality control tools
+
+About Page (about.html)
+
+Information about the fictional company's mission:
+
+Supporting engineers and startups
+
+Providing fast PCB prototyping
+
+High-precision electronics manufacturing
+
+Contacts Page (contacts.html)
+
+Company contact information and production location.
+
+Technologies Used
+
+This project was built using:
+
+HTML
+
+CSS
+
+JavaScript
+
+No backend or real ordering system is implemented. All payment and ordering functions are simulated.
+
+Project Structure
 microtech-pcb/
 │
-├ index.html         # Main page with hero, services, PCB calculator, projects overview
-├ about.html         # About the company
+├ index.html         # Home page with hero, services, PCB calculator, projects preview
+├ about.html         # About page
 ├ contacts.html      # Contact page
-├ equipment.html     # Manufacturing equipment page
-├ order.html         # PCB / chip order page
-├ projects.html      # Projects page (new)
-├ payment.html       # Fake payment page (new)
+├ equipment.html     # Equipment page
+├ order.html         # PCB / chip order page with button to payment
+├ projects.html      # Projects showcase page
+├ payment.html       # Fake payment page
 │
-├ styles.css         # Shared CSS for all pages
-├ script.js          # Shared JavaScript for animations, calculator, fake payment
+├ styles.css         # Shared CSS with animations and styles
+├ script.js          # Shared JavaScript: animations, PCB calculator, fake payment
 └ logo.png           # Company logo
-💡 Features
+Live Demo
 
-Modern design with a professional look for a startup-style website
+You can view the website live on GitHub Pages here:
 
-Multiple pages: Home, About, Equipment, Projects, Order, Payment, Contacts
+https://vnchqa.github.io/microtech-pcb/
 
-PCB cost calculator on the home page
+Navigate the site using the top menu
 
-Projects showcase with animated cards
+Try the PCB order form and click "Перейти к оплате" to see the fake payment page
 
-Fake payment system that confirms submission
+Explore the Projects page to see example projects with animated cards
 
-Smooth animations (fade-in effects for sections and project cards)
-
-Reusable header and footer across all pages
-
-⚙️ How to run
-
-Clone the repository:
-
-git clone https://github.com/vnchqa/microtech-pcb.git
-
-Open index.html in a browser.
-
-All other pages are linked via navigation and buttons.
-
-To test payment simulation, go to Order Page and click "Перейти к оплате".
-
-📝 Notes
+Notes
 
 This website is entirely educational and not a real electronics manufacturer
 
@@ -54,12 +158,4 @@ All prices, projects, and payment functionality are fake / simulated
 
 Images are from Unsplash and other free image sources
 
-📌 New Additions
-
-projects.html — showcases example projects with images and descriptions
-
-payment.html — simulated payment page with success message
-
-Updated CSS/JS with animations across all pages
-
-Consistent header/footer and logo across all pages
+Designed for a school project demonstration, not for commercial use
