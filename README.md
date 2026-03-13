@@ -1,120 +1,65 @@
-# MicroTech PCB
+MicroTech PCB
 
-⚠️ **Important:**  
-This is **NOT a real commercial website.**  
-This project was created **only for a school assignment**.
+This is NOT a real website. It's made for my school project.
 
----
+MicroTech PCB is a simulated electronics manufacturing company website. It demonstrates the production of custom printed circuit boards (PCBs) and microchips, aimed at engineers, startups, and electronics developers.
 
-## About the Project
-
-**MicroTech PCB** is a fictional electronics manufacturing company created as part of a school project.
-
-The goal of this project was to design and build a modern website for a company that produces:
-
-- Custom microchips
-- Printed Circuit Boards (PCB)
-- SMT assembly services
-- Electronic prototypes
-
-The website is inspired by professional electronics manufacturing platforms such as **PCBWay**, but simplified for educational purposes.
-
----
-
-## Project Goals
-
-The main goals of the project were:
-
-- Learn basic **web development**
-- Understand **how industrial company websites are structured**
-- Create a **modern startup-style website**
-- Simulate a **real electronics manufacturing company**
-
----
-
-## Website Features
-
-The website includes several pages similar to real electronics manufacturing services:
-
-### Home Page
-- Overview of the company
-- Description of services
-- Quick PCB order button
-- Production overview
-
-### Order Page
-A simplified PCB ordering system including:
-
-- Name
-- Email
-- Phone number
-- Project description
-- PCB dimensions
-- PCB quantity
-- Layer count
-- Gerber file upload (concept)
-
-### Equipment Page
-Description of production equipment used in electronics manufacturing:
-
-- SMT Pick & Place machines
-- Reflow ovens
-- AOI inspection systems
-- CNC drilling machines
-- X-ray inspection equipment
-- Quality control tools
-
-### About Page
-Information about the fictional company's mission:
-
-- Supporting engineers and startups
-- Providing fast PCB prototyping
-- High-precision electronics manufacturing
-
-### Contacts Page
-Company contact information and production location.
-
----
-
-## Technologies Used
-
-This project was built using basic web technologies:
-
-- **HTML**
-- **CSS**
-- **JavaScript**
-
-No backend or real ordering system is implemented.
-
----
-
-## Project Structure
-
+📂 Project Structure
 microtech-pcb/
 │
-├── index.html
-├── order.html
-├── equipment.html
-├── about.html
-├── contacts.html
+├ index.html         # Main page with hero, services, PCB calculator, projects overview
+├ about.html         # About the company
+├ contacts.html      # Contact page
+├ equipment.html     # Manufacturing equipment page
+├ order.html         # PCB / chip order page
+├ projects.html      # Projects page (new)
+├ payment.html       # Fake payment page (new)
 │
-├── styles.css
-├── script.js
-│
-└── images/
+├ styles.css         # Shared CSS for all pages
+├ script.js          # Shared JavaScript for animations, calculator, fake payment
+└ logo.png           # Company logo
+💡 Features
 
----
+Modern design with a professional look for a startup-style website
 
-## Disclaimer
+Multiple pages: Home, About, Equipment, Projects, Order, Payment, Contacts
 
-This website **does not represent a real company**.
+PCB cost calculator on the home page
 
-All company information, addresses, and services are **fictional** and created only for educational purposes.
+Projects showcase with animated cards
 
-The website was built as part of a **school business and technology project**.
+Fake payment system that confirms submission
 
----
+Smooth animations (fade-in effects for sections and project cards)
 
-## Author
+Reusable header and footer across all pages
 
-Created by vnchqa for a school project.
+⚙️ How to run
+
+Clone the repository:
+
+git clone https://github.com/vnchqa/microtech-pcb.git
+
+Open index.html in a browser.
+
+All other pages are linked via navigation and buttons.
+
+To test payment simulation, go to Order Page and click "Перейти к оплате".
+
+📝 Notes
+
+This website is entirely educational and not a real electronics manufacturer
+
+All prices, projects, and payment functionality are fake / simulated
+
+Images are from Unsplash and other free image sources
+
+📌 New Additions
+
+projects.html — showcases example projects with images and descriptions
+
+payment.html — simulated payment page with success message
+
+Updated CSS/JS with animations across all pages
+
+Consistent header/footer and logo across all pages
