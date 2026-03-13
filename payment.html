@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>MPT - Оплата</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+<div class="logo-container">
+<img src="logo.png" class="logo">
+<h2>MPT</h2>
+</div>
+</header>
+
+<section class="container payment">
+<h1 class="section-title">Оплата заказа</h1>
+<div class="payment-box">
+<form onsubmit="fakePayment(event)">
+<label>Номер карты</label>
+<input type="text" required>
+<label>Срок действия</label>
+<input type="text" required>
+<label>CVC</label>
+<input type="text" required>
+<button type="submit">Оплатить</button>
+</form>
+</div>
+<div class="success-message">
+<h2>Оплата прошла успешно ✅</h2>
+<p>Спасибо за заказ. Мы свяжемся с вами в ближайшее время.</p>
+</div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
