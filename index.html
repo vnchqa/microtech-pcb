@@ -2,85 +2,84 @@
 <html lang="ru">
 <head>
 <meta charset="UTF-8">
-<title>MTP - Главная</title>
+<title>MPT</title>
 <link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
 <header>
-  <div class="logo-container">
-    <a href="index.html">
-      <img src="a_vector_style_digital_logo_design_features_the_le.png" alt="MicroTech PCB Logo" class="logo">
-    </a>
-    <h2>MicroTech PCB</h2>
-  </div>
-  <nav>
-    <a href="index.html">Главная</a>
-    <a href="order.html">Заказать</a>
-    <a href="equipment.html">Оборудование</a>
-    <a href="about.html">О нас</a>
-    <a href="contacts.html">Контакты</a>
-  </nav>
+<div class="logo-container">
+<img src="logo.png" class="logo">
+<h2>MPT</h2>
+</div>
+<nav>
+<a href="index.html">Главная</a>
+<a href="about.html">О нас</a>
+<a href="equipment.html">Оборудование</a>
+<a href="projects.html">Проекты</a>
+<a href="order.html">Заказ</a>
+<a href="contacts.html">Контакты</a>
+</nav>
 </header>
 
-<section class="hero">
-<h1>Производство печатных плат и микросхем</h1>
-<p>Современное производство электроники для инженеров, стартапов и разработчиков</p>
-<a class="btn" href="order.html">Быстрый заказ</a>
+<section class="hero fade-in">
+<h1>Производство печатных плат</h1>
+<p>Современное производство электроники для инженеров, стартапов и разработчиков.</p>
+<a href="order.html" class="btn">Сделать заказ</a>
 </section>
 
-<section class="container" id="services">
+<section class="container fade-in" id="services">
 <h2 class="section-title">Наши услуги</h2>
 <div class="grid">
-
 <div class="card">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-RaDyRkATAA5XtndSyBPQ-Au8M3pf8awfWg&s" alt="PCB монтаж платы">
-<h3>PCB производство</h3>
-<p>Односторонние, двусторонние и многослойные платы</p>
+<img src="https://cdn-icons-png.flaticon.com/512/2721/2721269.png">
+<h3>Производство PCB</h3>
+<p>Изготовление однослойных, двухслойных и многослойных плат.</p>
 </div>
-
 <div class="card">
-<img src="https://png.pngtree.com/png-vector/20190716/ourmid/pngtree-microchip-icon-png-image_1545441.jpg" alt="Микросхемы">
+<img src="https://cdn-icons-png.flaticon.com/512/3659/3659899.png">
 <h3>Микросхемы на заказ</h3>
-<p>Разработка специализированных микрочипов</p>
+<p>Разработка специализированных микросхем для электронных устройств.</p>
 </div>
-
 <div class="card">
-<img src="https://cdn-icons-png.freepik.com/512/8596/8596384.png" alt="SMT монтаж">
+<img src="https://cdn-icons-png.flaticon.com/512/2920/2920244.png">
 <h3>SMT монтаж</h3>
-<p>Автоматическая установка компонентов на плату</p>
+<p>Автоматическая установка электронных компонентов на платы.</p>
 </div>
-
 <div class="card">
-<img src="https://cdn-icons-png.flaticon.com/256/16812/16812512.png" alt="Прототип PCB">
+<img src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png">
 <h3>Прототипирование</h3>
-<p>Быстрое изготовление тестовых образцов</p>
+<p>Быстрое изготовление тестовых образцов плат.</p>
 </div>
-
 </div>
 </section>
 
-<section class="container" id="calculator">
-<h2 class="section-title">Калькулятор стоимости PCB (Без компонентов)</h2>
-<div>
-<label>Ширина платы (мм)</label><input type="number" id="width">
-<label>Высота платы (мм)</label><input type="number" id="height">
-<label>Количество плат</label><input type="number" id="qty">
-<label>Слои</label>
+<section class="container fade-in" id="calculator">
+<h2 class="section-title">Калькулятор стоимости PCB</h2>
+<form>
+<label>Ширина платы (мм)</label>
+<input type="number" id="width">
+<label>Высота платы (мм)</label>
+<input type="number" id="height">
+<label>Количество</label>
+<input type="number" id="quantity">
+<label>Количество слоев</label>
 <select id="layers">
-<option value="1">1</option>
-<option value="2">2</option>
-<option value="4">4</option>
-<option value="6">6</option>
-</select><br>
-<button onclick="calculatePrice()">Рассчитать</button>
+<option value="1">1 слой</option>
+<option value="2">2 слоя</option>
+<option value="4">4 слоя</option>
+<option value="6">6 слоев</option>
+</select>
+<button type="button" onclick="calculatePCB()">Рассчитать</button>
 <div id="price" class="price"></div>
-</div>
+</form>
 </section>
 
 <footer>
 <p>© 2026 MicroTech PCB</p>
 </footer>
+
 <script src="script.js"></script>
 </body>
 </html>
