@@ -98,6 +98,20 @@ No backend or real ordering system is implemented. All payment and ordering func
 
 ---
 
+## Live Demo
+
+You can view the website live on GitHub Pages here:
+
+https://vnchqa.github.io/microtech-pcb/
+
+Navigate the site using the top menu
+
+Try the PCB order form and click "Перейти к оплате" to see the fake payment page
+
+Explore the Projects page to see example projects with animated cards
+
+---
+
 ## Project Structure
 
 ```text
